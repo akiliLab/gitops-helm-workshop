@@ -3,8 +3,6 @@ kind: HelmRelease
 metadata:
   name: nginx-ingress
   namespace: ingress-nginx
-  annotations:
-    fluxcd.io/ignore: "false"
 spec:
   releaseName: nginx-ingress
   chart:
